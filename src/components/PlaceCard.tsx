@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 interface PlaceCardProps {
   name: string;
@@ -25,17 +25,69 @@ const PlaceCard: React.FC<PlaceCardProps> = ({
   timings,
   localTip
 }) => {
+  const [imageError, setImageError] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
+
+  const handleImageError = () => {
+    setImageError(true);
+  };
+
+  const handleImageLoad = () => {
+    setImageLoaded(true);
+  };
+
+  const getTypeIcon = (type: string) => {
+    const typeIcons: { [key: string]: string } = {
+      'Historical Fort': '🏰',
+      'Historical Palace': '🏛️',
+      'Cultural Center': '🎭',
+      'Natural Wonder': '🌸',
+      'Waterfall': '💧',
+      'Historical Fort & Temple': '🕉️',
+      'Business Hotel': '🏢',
+      'Budget Hotel': '🏨',
+      'Mid-range Hotel': '🏨',
+      'Luxury Hotel': '⭐',
+      'South Indian, North Indian': '🍽️',
+      'Maharashtrian Thali': '🥘',
+      'Local Street Food': '🌶️',
+      'Cafe, Continental': '☕',
+      'Konkani, Seafood': '🐟',
+      'Street Food, Chaat': '🥙'
+    };
+    return typeIcons[type] || '📍';
+  };
+
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition-shadow">
       {/* Image */}
-      {image && (
-        <div className="h-48 bg-gradient-to-r from-orange-100 to-red-100 flex items-center justify-center">
+      <div className="h-48 bg-gradient-to-r from-orange-100 to-red-100 flex items-center justify-center relative overflow-hidden">
+        {image && !imageError ? (
+          <>
+            <img
+              src={image}
+              alt={`${name} - ${type}`}
+              className={`w-full h-full object-cover transition-opacity duration-300 ${
+                imageLoaded ? 'opacity-100' : 'opacity-0'
+              }`}
+              onError={handleImageError}
+              onLoad={handleImageLoad}
+            />
+            {!imageLoaded && (
+              <div className="absolute inset-0 flex items-center justify-center">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-orange-500"></div>
+              </div>
+            )}
+          </>
+        ) : (
           <div className="text-center text-gray-500">
-            <div className="text-4xl mb-2">🏛️</div>
-            <div className="text-sm">Image: {image}</div>
+            <div className="text-4xl mb-2">{getTypeIcon(type)}</div>
+            <div className="text-sm px-4 text-center">
+              {imageError ? 'Image coming soon' : name}
+            </div>
           </div>
-        </div>
-      )}
+        )}
+      </div>
       
       {/* Content */}
       <div className="p-4">

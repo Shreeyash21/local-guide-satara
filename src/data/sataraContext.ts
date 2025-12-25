@@ -18,7 +18,7 @@ export const sataraContext = {
       type: "Historical Fort",
       significance: "17th century Maratha fort, symbol of Satara",
       localTip: "Best visited early morning or evening. Locals call it 'Tara'",
-      image: "/images/ajinkyatara-fort.jpg",
+      image: "/images/places/ajinkyatara-fort.jpg",
       rating: 4.5,
       timings: "6:00 AM - 6:00 PM",
       entryFee: "₹10 per person"
@@ -29,7 +29,7 @@ export const sataraContext = {
       type: "Historical Palace",
       significance: "Former seat of Maratha Empire, built in 1699",
       localTip: "Photography allowed, but respect the heritage",
-      image: "/images/satara-palace.jpg",
+      image: "/images/places/satara-palace.jpg",
       rating: 4.2,
       timings: "9:00 AM - 5:00 PM",
       entryFee: "₹5 per person"
@@ -39,7 +39,7 @@ export const sataraContext = {
       marathi: "यशवंतराव चव्हाण नाट्यगृह",
       type: "Cultural Center",
       significance: "Premier theater for Marathi plays and cultural events",
-      image: "/images/natyagruha.jpg",
+      image: "/images/places/natyagruha.jpg",
       rating: 4.3,
       timings: "Show timings vary"
     },
@@ -49,7 +49,7 @@ export const sataraContext = {
       type: "Natural Wonder",
       significance: "UNESCO World Heritage site, Valley of Flowers",
       localTip: "Visit during monsoon (Aug-Oct) for blooming flowers",
-      image: "/images/kaas-plateau.jpg",
+      image: "/images/places/kaas-plateau.jpg",
       rating: 4.8,
       distance: "25 km from Satara",
       bestTime: "August to October"
@@ -60,7 +60,7 @@ export const sataraContext = {
       type: "Waterfall",
       significance: "Series of waterfalls, highest drop of 200m",
       localTip: "Spectacular during monsoons, carry raincoat",
-      image: "/images/thoseghar-falls.jpg",
+      image: "/images/places/thoseghar-falls.jpg",
       rating: 4.6,
       distance: "20 km from Satara",
       bestTime: "June to September"
@@ -71,7 +71,7 @@ export const sataraContext = {
       type: "Historical Fort & Temple",
       significance: "Samadhi of Sant Ramdas, spiritual significance",
       localTip: "Peaceful place for meditation, good trekking spot",
-      image: "/images/sajjangad.jpg",
+      image: "/images/places/sajjangad.jpg",
       rating: 4.4,
       distance: "15 km from Satara",
       entryFee: "Free"
@@ -89,7 +89,7 @@ export const sataraContext = {
       amenities: ["AC", "WiFi", "Restaurant", "Room Service", "Parking"],
       location: "Near Bus Stand",
       contact: "+91 2162 234567",
-      image: "/images/hotel-radhika.jpg",
+      image: "/images/hotels/hotel-radhika.jpg",
       localTip: "Popular among business travelers, good restaurant"
     },
     {
@@ -101,7 +101,7 @@ export const sataraContext = {
       amenities: ["AC", "WiFi", "Restaurant", "Parking"],
       location: "Shaniwar Peth",
       contact: "+91 2162 223344",
-      image: "/images/hotel-shreyas.jpg",
+      image: "/images/hotels/hotel-shreyas.jpg",
       localTip: "Good value for money, clean rooms"
     },
     {
@@ -113,7 +113,7 @@ export const sataraContext = {
       amenities: ["AC", "WiFi", "Restaurant", "Conference Hall", "Parking"],
       location: "Powai Naka",
       contact: "+91 2162 245678",
-      image: "/images/satara-residency.jpg",
+      image: "/images/hotels/satara-residency.jpg",
       localTip: "Good for families, spacious rooms"
     },
     {
@@ -125,7 +125,7 @@ export const sataraContext = {
       amenities: ["AC", "WiFi", "Multi-cuisine Restaurant", "Gym", "Spa", "Parking"],
       location: "Pune-Bangalore Highway",
       contact: "+91 2162 267890",
-      image: "/images/hotel-surya.jpg",
+      image: "/images/hotels/hotel-surya.jpg",
       localTip: "Best luxury option in Satara, excellent service"
     }
   ],
@@ -141,7 +141,7 @@ export const sataraContext = {
       priceRange: "₹150 - ₹400 per person",
       location: "Near Bus Stand",
       timings: "7:00 AM - 11:00 PM",
-      image: "/images/radhika-restaurant.jpg",
+      image: "/images/restaurants/radhika-restaurant.jpg",
       localTip: "Famous for breakfast, try their masala dosa"
     },
     {
@@ -153,7 +153,7 @@ export const sataraContext = {
       priceRange: "₹200 - ₹350 per person",
       location: "Shaniwar Peth",
       timings: "11:00 AM - 3:00 PM, 7:00 PM - 10:00 PM",
-      image: "/images/shivneri-restaurant.jpg",
+      image: "/images/restaurants/shivneri-restaurant.jpg",
       localTip: "Authentic Maharashtrian food, very popular among locals"
     },
     {
@@ -165,7 +165,7 @@ export const sataraContext = {
       priceRange: "₹50 - ₹150 per person",
       location: "Near Railway Station",
       timings: "6:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
-      image: "/images/misal-house.jpg",
+      image: "/images/restaurants/misal-house.jpg",
       localTip: "Best misal in Satara, must-try for spice lovers"
     },
     {
@@ -177,7 +177,7 @@ export const sataraContext = {
       priceRange: "₹100 - ₹300 per person",
       location: "Powai Naka",
       timings: "8:00 AM - 11:00 PM",
-      image: "/images/ccd-satara.jpg",
+      image: "/images/restaurants/ccd-satara.jpg",
       localTip: "Good for hangouts, WiFi available"
     },
     {
@@ -189,7 +189,7 @@ export const sataraContext = {
       priceRange: "₹250 - ₹500 per person",
       location: "Godoli Road",
       timings: "12:00 PM - 3:00 PM, 7:00 PM - 11:00 PM",
-      image: "/images/kokani-darbar.jpg",
+      image: "/images/restaurants/kokani-darbar.jpg",
       localTip: "Best seafood in Satara, try their fish thali"
     },
     {
@@ -201,7 +201,7 @@ export const sataraContext = {
       priceRange: "₹30 - ₹100 per person",
       location: "Near Rajwada",
       timings: "4:00 PM - 10:00 PM",
-      image: "/images/bhel-puri-corner.jpg",
+      image: "/images/restaurants/bhel-puri-corner.jpg",
       localTip: "Evening snack spot, very popular among students"
     }
   ],
@@ -232,7 +232,7 @@ export const sataraContext = {
         whereToFind: "Misal House near Railway Station",
         price: "₹60 - ₹120",
         spiceLevel: "High",
-        image: "/images/satara-misal.jpg"
+        image: "/images/food/satara-misal.jpg"
       },
       {
         name: "Solkadhi",
@@ -241,7 +241,7 @@ export const sataraContext = {
         localTip: "Best had with fish curry or spicy food",
         whereToFind: "Kokani Darbar, most Konkani restaurants",
         price: "₹40 - ₹80",
-        image: "/images/solkadhi.jpg"
+        image: "/images/food/solkadhi.jpg"
       },
       {
         name: "Bhakri with Pitla",
@@ -250,7 +250,7 @@ export const sataraContext = {
         culturalNote: "Staple food of rural Maharashtra",
         whereToFind: "Shivneri Restaurant, local dhabas",
         price: "₹80 - ₹150",
-        image: "/images/bhakri-pitla.jpg"
+        image: "/images/food/bhakri-pitla.jpg"
       },
       {
         name: "Puran Poli",
@@ -259,7 +259,7 @@ export const sataraContext = {
         culturalNote: "Festival special, made during Gudi Padwa",
         whereToFind: "Shivneri Restaurant, homemade during festivals",
         price: "₹25 - ₹50 per piece",
-        image: "/images/puran-poli.jpg"
+        image: "/images/food/puran-poli.jpg"
       },
       {
         name: "Koliwada Fish Fry",
@@ -268,7 +268,7 @@ export const sataraContext = {
         whereToFind: "Kokani Darbar",
         price: "₹200 - ₹350",
         spiceLevel: "Medium to High",
-        image: "/images/koliwada-fish.jpg"
+        image: "/images/food/koliwada-fish.jpg"
       }
     ],
     popularEateries: [

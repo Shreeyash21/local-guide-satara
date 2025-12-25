@@ -1,57 +1,89 @@
 # Images for The Local Guide - Satara
 
-This folder contains images for places, hotels, restaurants, and attractions in Satara.
+This folder contains organized images for places, hotels, restaurants, and food items in Satara.
 
-## Image Structure
+## 📁 Folder Structure
 
-### Places & Landmarks
-- `ajinkyatara-fort.jpg` - Ajinkyatara Fort view
-- `satara-palace.jpg` - Satara Palace (Rajwada)
-- `natyagruha.jpg` - Yashwantrao Chavan Natyagruha
-- `kaas-plateau.jpg` - Kaas Plateau flowers
-- `thoseghar-falls.jpg` - Thoseghar Waterfalls
-- `sajjangad.jpg` - Sajjangad Fort
+```
+public/images/
+├── places/          # Tourist attractions & landmarks
+├── hotels/          # Accommodation options
+├── restaurants/     # Dining establishments
+├── food/           # Local dishes & specialties
+└── README.md       # This file
+```
 
-### Hotels
-- `hotel-radhika.jpg` - Hotel Radhika Executive
-- `hotel-shreyas.jpg` - Hotel Shreyas
-- `satara-residency.jpg` - Satara Residency
-- `hotel-surya.jpg` - Hotel Surya Executive
+## 🏛️ Places & Landmarks (6 images)
+- `places/ajinkyatara-fort.jpg` - Ajinkyatara Fort view
+- `places/satara-palace.jpg` - Satara Palace (Rajwada)
+- `places/natyagruha.jpg` - Yashwantrao Chavan Natyagruha
+- `places/kaas-plateau.jpg` - Kaas Plateau flowers (UNESCO site)
+- `places/thoseghar-falls.jpg` - Thoseghar Waterfalls
+- `places/sajjangad.jpg` - Sajjangad Fort
 
-### Restaurants & Food
-- `radhika-restaurant.jpg` - Hotel Radhika Restaurant
-- `shivneri-restaurant.jpg` - Shivneri Restaurant
-- `misal-house.jpg` - Misal House
-- `ccd-satara.jpg` - Cafe Coffee Day Satara
-- `kokani-darbar.jpg` - Kokani Darbar
-- `bhel-puri-corner.jpg` - Bhel Puri Corner
+## 🏨 Hotels (4 images)
+- `hotels/hotel-radhika.jpg` - Hotel Radhika Executive
+- `hotels/hotel-shreyas.jpg` - Hotel Shreyas
+- `hotels/satara-residency.jpg` - Satara Residency
+- `hotels/hotel-surya.jpg` - Hotel Surya Executive
 
-### Food Items
-- `satara-misal.jpg` - Satara Special Misal
-- `solkadhi.jpg` - Solkadhi drink
-- `bhakri-pitla.jpg` - Bhakri with Pitla
-- `puran-poli.jpg` - Puran Poli
-- `koliwada-fish.jpg` - Koliwada Fish Fry
+## 🍽️ Restaurants (6 images)
+- `restaurants/radhika-restaurant.jpg` - Hotel Radhika Restaurant
+- `restaurants/shivneri-restaurant.jpg` - Shivneri Restaurant
+- `restaurants/misal-house.jpg` - Misal House
+- `restaurants/ccd-satara.jpg` - Cafe Coffee Day Satara
+- `restaurants/kokani-darbar.jpg` - Kokani Darbar
+- `restaurants/bhel-puri-corner.jpg` - Bhel Puri Corner
 
-## Image Guidelines
+## 🍛 Food Items (5 images)
+- `food/satara-misal.jpg` - Satara Special Misal
+- `food/solkadhi.jpg` - Solkadhi drink
+- `food/bhakri-pitla.jpg` - Bhakri with Pitla
+- `food/puran-poli.jpg` - Puran Poli
+- `food/koliwada-fish.jpg` - Koliwada Fish Fry
 
-- Use high-quality images (minimum 800x600px)
-- Optimize for web (compress to reduce file size)
-- Use descriptive filenames
-- Include alt text for accessibility
-- Maintain consistent aspect ratios where possible
+## 📸 Image Upload Guidelines
 
-## Adding New Images
+### File Requirements:
+- **Format**: JPG or PNG preferred
+- **Size**: Minimum 800x600px, recommended 1200x800px
+- **File Size**: Keep under 500KB for web optimization
+- **Naming**: Use exact filenames as listed above
 
-1. Add image files to this folder
-2. Update the corresponding data in `src/data/sataraContext.ts`
-3. Ensure image paths match the filename structure
-4. Test image loading in the application
+### Quality Standards:
+- High resolution and clear images
+- Good lighting and composition
+- Authentic representation of the place/food
+- No watermarks or text overlays
 
-## Image Sources
+### How to Upload:
+1. **Replace placeholder files** with actual images
+2. **Keep exact filenames** - the app references these specific paths
+3. **Maintain folder structure** - don't move files between folders
+4. **Test locally** - run `npm run dev` to see images in the app
 
-For production use, ensure all images are:
-- Properly licensed or owned
-- Compressed for web performance
-- Accessible with proper alt text
-- Consistent in style and quality
+## 🔄 Auto-Detection
+
+The app automatically loads images from these paths:
+- Places: `/images/places/[filename].jpg`
+- Hotels: `/images/hotels/[filename].jpg`
+- Restaurants: `/images/restaurants/[filename].jpg`
+- Food: `/images/food/[filename].jpg`
+
+## 📱 Responsive Display
+
+Images are displayed responsively in:
+- Chat interface with place cards
+- Image galleries for categories
+- Fallback placeholders if images are missing
+
+## ⚡ Performance Tips
+
+- Compress images before uploading
+- Use WebP format for better compression (optional)
+- Consider lazy loading for large galleries
+- Optimize for mobile viewing
+
+## 🚀 Ready to Upload!
+
+Simply replace the placeholder files with your actual images using the exact same filenames. The app will automatically display them in the chat interface and place cards!
