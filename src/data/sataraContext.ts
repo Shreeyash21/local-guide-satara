@@ -81,128 +81,104 @@ export const sataraContext = {
   // Hotels and accommodation
   hotels: [
     {
-      name: "Hotel Radhika Executive",
-      marathi: "हॉटेल राधिका एक्झिक्यूटिव्ह",
+      name: "Kaas Woods Resort",
+      marathi: "कास वुड्स रिसॉर्ट",
+      type: "Nature Resort",
+      rating: 4.5,
+      priceRange: "₹4,000 - ₹8,000 per night",
+      amenities: ["AC", "WiFi", "Restaurant", "Swimming Pool", "Garden", "Room Service", "Parking"],
+      location: "Near Kaas Plateau, 25 km from Satara",
+      contact: "+91 2162 278901",
+      image: "/images/hotels/kaas-woods-resort.jpg",
+      localTip: "Perfect for nature lovers, close to famous Kaas Plateau"
+    },
+    {
+      name: "Hotel Maharaja Regency",
+      marathi: "हॉटेल महाराजा रीजेंसी",
       type: "Business Hotel",
-      rating: 4.1,
-      priceRange: "₹2,500 - ₹4,000 per night",
-      amenities: ["AC", "WiFi", "Restaurant", "Room Service", "Parking"],
-      location: "Near Bus Stand",
+      rating: 4.2,
+      priceRange: "₹2,800 - ₹5,500 per night",
+      amenities: ["AC", "WiFi", "Multi-cuisine Restaurant", "Conference Hall", "Room Service", "Parking"],
+      location: "Shaniwar Peth, City Center",
       contact: "+91 2162 234567",
-      image: "/images/hotels/hotel-radhika.jpg",
-      localTip: "Popular among business travelers, good restaurant"
+      image: "/images/hotels/maharaja-regency.jpg",
+      localTip: "Excellent for business travelers, centrally located"
     },
     {
-      name: "Hotel Shreyas",
-      marathi: "हॉटेल श्रेयस",
-      type: "Budget Hotel",
-      rating: 3.8,
-      priceRange: "₹1,200 - ₹2,200 per night",
-      amenities: ["AC", "WiFi", "Restaurant", "Parking"],
-      location: "Shaniwar Peth",
-      contact: "+91 2162 223344",
-      image: "/images/hotels/hotel-shreyas.jpg",
-      localTip: "Good value for money, clean rooms"
-    },
-    {
-      name: "Satara Residency",
-      marathi: "सातारा रेसिडेन्सी",
-      type: "Mid-range Hotel",
+      name: "Hotel Preeti Executive",
+      marathi: "हॉटेल प्रीती एक्झिक्यूटिव्ह",
+      type: "Executive Hotel",
       rating: 4.0,
-      priceRange: "₹1,800 - ₹3,200 per night",
-      amenities: ["AC", "WiFi", "Restaurant", "Conference Hall", "Parking"],
-      location: "Powai Naka",
+      priceRange: "₹2,200 - ₹4,200 per night",
+      amenities: ["AC", "WiFi", "Restaurant", "Banquet Hall", "Room Service", "Parking"],
+      location: "Near Bus Stand, Powai Naka",
       contact: "+91 2162 245678",
-      image: "/images/hotels/satara-residency.jpg",
-      localTip: "Good for families, spacious rooms"
+      image: "/images/hotels/preeti-executive.jpg",
+      localTip: "Good connectivity, popular among families and tourists"
     },
     {
-      name: "Hotel Surya Executive",
-      marathi: "हॉटेल सूर्य एक्झिक्यूटिव्ह",
-      type: "Luxury Hotel",
-      rating: 4.3,
-      priceRange: "₹3,500 - ₹6,000 per night",
-      amenities: ["AC", "WiFi", "Multi-cuisine Restaurant", "Gym", "Spa", "Parking"],
+      name: "The Fern Residency",
+      marathi: "द फर्न रेसिडेन्सी",
+      type: "Premium Hotel",
+      rating: 4.4,
+      priceRange: "₹3,500 - ₹6,500 per night",
+      amenities: ["AC", "WiFi", "Fine Dining Restaurant", "Spa", "Gym", "Business Center", "Parking"],
       location: "Pune-Bangalore Highway",
       contact: "+91 2162 267890",
-      image: "/images/hotels/hotel-surya.jpg",
-      localTip: "Best luxury option in Satara, excellent service"
+      image: "/images/hotels/fern-residency.jpg",
+      localTip: "Premium experience with eco-friendly practices, great for luxury stays"
     }
   ],
 
   // Restaurants and eateries
   restaurants: [
     {
-      name: "Hotel Radhika Restaurant",
-      marathi: "हॉटेल राधिका रेस्टॉरंट",
-      cuisine: "South Indian, North Indian",
-      specialty: "Dosa, Idli, Punjabi dishes",
-      rating: 4.2,
-      priceRange: "₹150 - ₹400 per person",
-      location: "Near Bus Stand",
-      timings: "7:00 AM - 11:00 PM",
-      image: "/images/restaurants/radhika-restaurant.jpg",
-      localTip: "Famous for breakfast, try their masala dosa"
-    },
-    {
-      name: "Shivneri Restaurant",
-      marathi: "शिवनेरी रेस्टॉरंट",
-      cuisine: "Maharashtrian Thali",
-      specialty: "Unlimited Maharashtrian Thali",
-      rating: 4.4,
-      priceRange: "₹200 - ₹350 per person",
-      location: "Shaniwar Peth",
-      timings: "11:00 AM - 3:00 PM, 7:00 PM - 10:00 PM",
-      image: "/images/restaurants/shivneri-restaurant.jpg",
-      localTip: "Authentic Maharashtrian food, very popular among locals"
-    },
-    {
-      name: "Misal House",
-      marathi: "मिसळ हाऊस",
-      cuisine: "Local Street Food",
-      specialty: "Satara Special Misal Pav",
-      rating: 4.6,
-      priceRange: "₹50 - ₹150 per person",
-      location: "Near Railway Station",
-      timings: "6:00 AM - 12:00 PM, 4:00 PM - 9:00 PM",
-      image: "/images/restaurants/misal-house.jpg",
-      localTip: "Best misal in Satara, must-try for spice lovers"
-    },
-    {
-      name: "Cafe Coffee Day",
-      marathi: "कॅफे कॉफी डे",
-      cuisine: "Cafe, Continental",
-      specialty: "Coffee, Sandwiches, Pastries",
-      rating: 4.0,
-      priceRange: "₹100 - ₹300 per person",
-      location: "Powai Naka",
-      timings: "8:00 AM - 11:00 PM",
-      image: "/images/restaurants/ccd-satara.jpg",
-      localTip: "Good for hangouts, WiFi available"
-    },
-    {
-      name: "Kokani Darbar",
-      marathi: "कोकणी दरबार",
-      cuisine: "Konkani, Seafood",
-      specialty: "Fish Curry, Koliwada, Solkadhi",
+      name: "Chandravilas",
+      marathi: "चंद्रविलास",
+      cuisine: "Traditional Maharashtrian, South Indian",
+      specialty: "Authentic Maharashtrian Thali, Dosa varieties",
       rating: 4.3,
-      priceRange: "₹250 - ₹500 per person",
-      location: "Godoli Road",
-      timings: "12:00 PM - 3:00 PM, 7:00 PM - 11:00 PM",
-      image: "/images/restaurants/kokani-darbar.jpg",
-      localTip: "Best seafood in Satara, try their fish thali"
+      priceRange: "₹150 - ₹350 per person",
+      location: "Main Road, City Center",
+      timings: "7:00 AM - 10:30 PM",
+      image: "/images/restaurants/chandravilas.jpg",
+      localTip: "Famous for traditional breakfast and authentic Maharashtrian meals"
     },
     {
-      name: "Bhel Puri Corner",
-      marathi: "भेळ पुरी कॉर्नर",
-      cuisine: "Street Food, Chaat",
-      specialty: "Bhel Puri, Pani Puri, Sev Puri",
+      name: "MERAAJ PALACE RESTAURANT",
+      marathi: "मेराज पॅलेस रेस्टॉरंट",
+      cuisine: "Multi-cuisine, North Indian, Chinese",
+      specialty: "Biryani, Tandoor items, Chinese dishes",
+      rating: 4.2,
+      priceRange: "₹200 - ₹500 per person",
+      location: "Near Railway Station",
+      timings: "11:00 AM - 11:00 PM",
+      image: "/images/restaurants/meraaj-palace.jpg",
+      localTip: "Great for family dining, known for flavorful biryanis and tandoor"
+    },
+    {
+      name: "KANASE PUNJABI DHABA",
+      marathi: "कानसे पंजाबी ढाबा",
+      cuisine: "Punjabi, North Indian",
+      specialty: "Dal Makhani, Butter Chicken, Punjabi Thali",
       rating: 4.1,
-      priceRange: "₹30 - ₹100 per person",
-      location: "Near Rajwada",
-      timings: "4:00 PM - 10:00 PM",
-      image: "/images/restaurants/bhel-puri-corner.jpg",
-      localTip: "Evening snack spot, very popular among students"
+      priceRange: "₹180 - ₹400 per person",
+      location: "Pune-Bangalore Highway",
+      timings: "10:00 AM - 11:00 PM",
+      image: "/images/restaurants/kanase-punjabi-dhaba.jpg",
+      localTip: "Authentic Punjabi flavors, popular among highway travelers"
+    },
+    {
+      name: "Manas Resto Lounge",
+      marathi: "मानस रेस्टो लाउंज",
+      cuisine: "Continental, Indian, Bar & Grill",
+      specialty: "Grilled items, Cocktails, Continental dishes",
+      rating: 4.0,
+      priceRange: "₹300 - ₹800 per person",
+      location: "Powai Naka, Commercial Area",
+      timings: "12:00 PM - 12:00 AM",
+      image: "/images/restaurants/manas-resto-lounge.jpg",
+      localTip: "Modern dining experience with bar, perfect for evening hangouts"
     }
   ],
 
@@ -226,81 +202,83 @@ export const sataraContext = {
   foodCulture: {
     specialDishes: [
       {
-        name: "Satara Special Misal",
-        marathi: "सातारा स्पेशल मिसळ",
-        description: "Spicy curry with sprouts, served with pav",
-        whereToFind: "Misal House near Railway Station",
+        name: "Kandi Pedha",
+        marathi: "कांदी पेढा",
+        description: "Famous sweet made from milk solids, Satara's signature dessert",
+        whereToFind: "Local sweet shops, Chitale Bandhu",
+        price: "₹30 - ₹60 per piece",
+        culturalNote: "Must-buy souvenir from Satara",
+        image: "/images/food/kandi-pedha.jpg"
+      },
+      {
+        name: "Misal Pav",
+        marathi: "मिसळ पाव",
+        description: "Spicy curry with sprouts, served with bread - Satara style",
+        whereToFind: "Misal House near Railway Station, local eateries",
         price: "₹60 - ₹120",
         spiceLevel: "High",
-        image: "/images/food/satara-misal.jpg"
+        localTip: "Satara misal has unique taste different from other cities",
+        image: "/images/food/misal-pav.jpg"
       },
       {
-        name: "Solkadhi",
-        marathi: "सोलकढी",
-        description: "Kokum-based drink, perfect for hot weather",
-        localTip: "Best had with fish curry or spicy food",
-        whereToFind: "Kokani Darbar, most Konkani restaurants",
+        name: "Puri Bhaji",
+        marathi: "पुरी भाजी",
+        description: "Deep-fried bread with spiced potato curry",
+        whereToFind: "Street vendors, Shivneri Restaurant",
         price: "₹40 - ₹80",
-        image: "/images/food/solkadhi.jpg"
+        culturalNote: "Popular breakfast and evening snack",
+        image: "/images/food/puri-bhaji.jpg"
       },
       {
-        name: "Bhakri with Pitla",
-        marathi: "भाकरी आणि पिटळा",
-        description: "Traditional rural meal - jowar bread with gram flour curry",
-        culturalNote: "Staple food of rural Maharashtra",
-        whereToFind: "Shivneri Restaurant, local dhabas",
-        price: "₹80 - ₹150",
-        image: "/images/food/bhakri-pitla.jpg"
+        name: "Vada Pav & Batata Vada",
+        marathi: "वडा पाव आणि बटाटा वडा",
+        description: "Potato fritters in bread bun & standalone potato balls",
+        whereToFind: "Street vendors near bus stand, local tea stalls",
+        price: "₹15 - ₹30 per piece",
+        localTip: "Best enjoyed with green chutney and fried chilies",
+        image: "/images/food/vada-pav.jpg"
       },
       {
-        name: "Puran Poli",
-        marathi: "पुरण पोळी",
-        description: "Sweet flatbread stuffed with jaggery and lentils",
-        culturalNote: "Festival special, made during Gudi Padwa",
-        whereToFind: "Shivneri Restaurant, homemade during festivals",
+        name: "Kopra Pattice",
+        marathi: "कोप्रा पॅटिस",
+        description: "Coconut-stuffed potato patties, crispy outside and soft inside",
+        whereToFind: "Local snack vendors, evening food stalls",
         price: "₹25 - ₹50 per piece",
-        image: "/images/food/puran-poli.jpg"
-      },
-      {
-        name: "Koliwada Fish Fry",
-        marathi: "कोळीवाडा फिश फ्राय",
-        description: "Crispy fried fish with spicy coating",
-        whereToFind: "Kokani Darbar",
-        price: "₹200 - ₹350",
-        spiceLevel: "Medium to High",
-        image: "/images/food/koliwada-fish.jpg"
+        spiceLevel: "Medium",
+        localTip: "Popular evening snack, best when hot and crispy",
+        image: "/images/food/kopra-pattice.jpg"
       }
     ],
     popularEateries: [
       {
-        name: "Hotel Radhika",
-        specialty: "South Indian breakfast",
-        mustTry: "Masala Dosa, Filter Coffee",
-        priceRange: "₹150 - ₹400"
-      },
-      {
-        name: "Shivneri Restaurant",
-        specialty: "Maharashtrian thali",
-        mustTry: "Unlimited Thali",
-        priceRange: "₹200 - ₹350"
+        name: "Chitale Bandhu",
+        specialty: "Kandi Pedha & sweets",
+        mustTry: "Original Kandi Pedha",
+        priceRange: "₹30 - ₹200"
       },
       {
         name: "Misal House",
-        specialty: "Satara Special Misal",
-        mustTry: "Misal Pav with extra pav",
-        priceRange: "₹50 - ₹150"
+        specialty: "Authentic Satara Misal Pav",
+        mustTry: "Special Misal with extra pav",
+        priceRange: "₹60 - ₹150"
       },
       {
-        name: "Kokani Darbar",
-        specialty: "Konkani seafood",
-        mustTry: "Fish Curry Rice, Solkadhi",
-        priceRange: "₹250 - ₹500"
+        name: "Shivneri Restaurant",
+        specialty: "Traditional Maharashtrian food",
+        mustTry: "Puri Bhaji, Unlimited Thali",
+        priceRange: "₹40 - ₹350"
       },
       {
-        name: "Bhel Puri Corner",
-        specialty: "Evening snacks",
-        mustTry: "Bhel Puri, Pani Puri",
-        priceRange: "₹30 - ₹100"
+        name: "Street Food Vendors",
+        specialty: "Vada Pav, Batata Vada",
+        mustTry: "Fresh hot vada pav with chutneys",
+        priceRange: "₹15 - ₹50"
+      },
+      {
+        name: "Evening Snack Stalls",
+        specialty: "Kopra Pattice & local snacks",
+        mustTry: "Hot crispy Kopra Pattice",
+        priceRange: "₹25 - ₹80"
       }
     ]
   },

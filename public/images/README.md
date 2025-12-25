@@ -21,26 +21,24 @@ public/images/
 - `places/thoseghar-falls.jpg` - Thoseghar Waterfalls
 - `places/sajjangad.jpg` - Sajjangad Fort
 
-## 🏨 Hotels (4 images)
-- `hotels/hotel-radhika.jpg` - Hotel Radhika Executive
-- `hotels/hotel-shreyas.jpg` - Hotel Shreyas
-- `hotels/satara-residency.jpg` - Satara Residency
-- `hotels/hotel-surya.jpg` - Hotel Surya Executive
+## 🏨 Hotels (4 actual Satara hotels)
+- `hotels/kaas-woods-resort.jpg` - Kaas Woods Resort
+- `hotels/maharaja-regency.jpg` - Hotel Maharaja Regency
+- `hotels/preeti-executive.jpg` - Hotel Preeti Executive
+- `hotels/fern-residency.jpg` - The Fern Residency
 
-## 🍽️ Restaurants (6 images)
-- `restaurants/radhika-restaurant.jpg` - Hotel Radhika Restaurant
-- `restaurants/shivneri-restaurant.jpg` - Shivneri Restaurant
-- `restaurants/misal-house.jpg` - Misal House
-- `restaurants/ccd-satara.jpg` - Cafe Coffee Day Satara
-- `restaurants/kokani-darbar.jpg` - Kokani Darbar
-- `restaurants/bhel-puri-corner.jpg` - Bhel Puri Corner
+## 🍽️ Restaurants (4 actual Satara restaurants)
+- `restaurants/chandravilas.jpg` - Chandravilas
+- `restaurants/meraaj-palace.jpg` - MERAAJ PALACE RESTAURANT
+- `restaurants/kanase-punjabi-dhaba.jpg` - KANASE PUNJABI DHABA
+- `restaurants/manas-resto-lounge.jpg` - Manas Resto Lounge
 
-## 🍛 Food Items (5 images)
-- `food/satara-misal.jpg` - Satara Special Misal
-- `food/solkadhi.jpg` - Solkadhi drink
-- `food/bhakri-pitla.jpg` - Bhakri with Pitla
-- `food/puran-poli.jpg` - Puran Poli
-- `food/koliwada-fish.jpg` - Koliwada Fish Fry
+## 🍛 Food Items (5 famous Satara specialties)
+- `food/kandi-pedha.jpg` - Kandi Pedha (Satara's signature sweet)
+- `food/misal-pav.jpg` - Misal Pav (Satara style)
+- `food/puri-bhaji.jpg` - Puri Bhaji
+- `food/vada-pav.jpg` - Vada Pav & Batata Vada
+- `food/kopra-pattice.jpg` - Kopra Pattice
 
 ## 📸 Image Upload Guidelines
 

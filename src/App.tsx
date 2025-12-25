@@ -1,11 +1,25 @@
 import React from 'react';
-import ChatInterface from './components/ChatInterface';
+import Header from './components/Header';
+import Navigation from './components/Navigation';
+import Hero from './components/Hero';
+import PlacesSection from './components/PlacesSection';
+import HotelsSection from './components/HotelsSection';
+import RestaurantsSection from './components/RestaurantsSection';
+import FoodSection from './components/FoodSection';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <ChatInterface />
+      <Header />
+      <Navigation />
+      <Hero />
+      <PlacesSection />
+      <HotelsSection />
+      <RestaurantsSection />
+      <FoodSection />
+      <Footer />
     </div>
   );
 }

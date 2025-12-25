@@ -1,12 +1,16 @@
-/* Custom styles for The Local Guide - Satara */
+/* Website styles for The Local Guide - Satara */
 .App {
-  height: 100vh;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
 /* Scrollbar styling */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 8px;
 }
 
 ::-webkit-scrollbar-track {
@@ -15,18 +19,18 @@
 
 ::-webkit-scrollbar-thumb {
   background: #f97316;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: #ea580c;
 }
 
-/* Animation for message appearance */
+/* Animation for cards */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -34,6 +38,36 @@
   }
 }
 
-.message-enter {
-  animation: fadeInUp 0.3s ease-out;
+.card-enter {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Hover effects */
+.hover-lift {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Section spacing */
+section {
+  scroll-margin-top: 80px;
+}
+
+/* Responsive text */
+@media (max-width: 768px) {
+  .text-5xl {
+    font-size: 2.5rem;
+  }
+  
+  .text-4xl {
+    font-size: 2rem;
+  }
+  
+  .text-xl {
+    font-size: 1.125rem;
+  }
 }
