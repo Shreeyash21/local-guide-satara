@@ -15,7 +15,7 @@ const Hero: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mt-12">
           <div className="text-center">
             <div className="text-4xl mb-3">🏛️</div>
-            <h3 className="text-xl font-semibold text-gray-800">6 Historic Places</h3>
+            <h3 className="text-xl font-semibold text-gray-800">4 Historic Places</h3>
             <p className="text-gray-600">Including UNESCO sites</p>
           </div>
           <div className="text-center">

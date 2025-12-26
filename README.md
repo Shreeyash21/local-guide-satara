@@ -13,13 +13,11 @@ A comprehensive website showcasing Satara city's culture, heritage, cuisine, and
 
 ## 🏛️ What's Covered
 
-### **6 Historic Places & Attractions**
+### **4 Historic Places & Attractions**
 - **Kaas Plateau** - UNESCO World Heritage, Valley of Flowers ⭐4.8
 - **Thoseghar Waterfalls** - 200m waterfall, spectacular in monsoons ⭐4.6
 - **Ajinkyatara Fort** - Historic Maratha fort, city symbol ⭐4.5
 - **Sajjangad Fort** - Sant Ramdas samadhi, spiritual significance ⭐4.4
-- **Yashwantrao Chavan Natyagruha** - Cultural center ⭐4.3
-- **Satara Palace** - Former Maratha Empire seat ⭐4.2
 
 ### **4 Premium Hotels**
 - **Kaas Woods Resort** - Nature Resort near Kaas Plateau ⭐4.5
@@ -151,3 +149,7 @@ Replace placeholder files in `/public/images/` with actual photos:
 - **Travel Planning**: Help visitors plan their Satara trip
 
 Transform your city into a digital experience with this comprehensive guide template! 🏰✨
+
+---
+
+**© 2024 POLYMATHIST - All rights reserved**

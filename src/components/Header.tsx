@@ -12,6 +12,7 @@ const Header: React.FC = () => {
             <div>
               <h1 className="text-4xl font-bold">The Local Guide – SATARA</h1>
               <p className="text-orange-100 text-lg">सातारा शहर मार्गदर्शक • Discover the Heart of Maharashtra</p>
+              <p className="text-orange-200 text-sm mt-1">© POLYMATHIST</p>
             </div>
           </div>
         </div>

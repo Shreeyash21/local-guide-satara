@@ -62,31 +62,30 @@ const PlaceCard: React.FC<PlaceCardProps> = ({
     <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 hover:shadow-lg transition-shadow">
       {/* Image */}
       <div className="h-48 bg-gradient-to-r from-orange-100 to-red-100 flex items-center justify-center relative overflow-hidden">
-        {image && !imageError ? (
-          <>
-            <img
-              src={image}
-              alt={`${name} - ${type}`}
-              className={`w-full h-full object-cover transition-opacity duration-300 ${
-                imageLoaded ? 'opacity-100' : 'opacity-0'
-              }`}
-              onError={handleImageError}
-              onLoad={handleImageLoad}
-            />
-            {!imageLoaded && (
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-orange-500"></div>
-              </div>
-            )}
-          </>
+        {image ? (
+          <img
+            src={image}
+            alt={`${name} - ${type}`}
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              console.error(`Failed to load image: ${image}`);
+              e.currentTarget.style.display = 'none';
+            }}
+            onLoad={() => {
+              console.log(`Successfully loaded image: ${image}`);
+            }}
+          />
         ) : (
           <div className="text-center text-gray-500">
             <div className="text-4xl mb-2">{getTypeIcon(type)}</div>
-            <div className="text-sm px-4 text-center">
-              {imageError ? 'Image coming soon' : name}
-            </div>
+            <div className="text-sm px-4 text-center">No image</div>
           </div>
         )}
+        
+        {/* Fallback content - always show for debugging */}
+        <div className="absolute bottom-2 left-2 bg-black bg-opacity-50 text-white text-xs px-2 py-1 rounded">
+          {image ? `IMG: ${image}` : 'NO IMAGE PATH'}
+        </div>
       </div>
       
       {/* Content */}

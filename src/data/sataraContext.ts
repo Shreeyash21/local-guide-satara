@@ -24,26 +24,6 @@ export const sataraContext = {
       entryFee: "₹10 per person"
     },
     {
-      name: "Satara Palace (Rajwada)",
-      marathi: "सातारा राजवाडा",
-      type: "Historical Palace",
-      significance: "Former seat of Maratha Empire, built in 1699",
-      localTip: "Photography allowed, but respect the heritage",
-      image: "/images/places/satara-palace.jpg",
-      rating: 4.2,
-      timings: "9:00 AM - 5:00 PM",
-      entryFee: "₹5 per person"
-    },
-    {
-      name: "Yashwantrao Chavan Natyagruha",
-      marathi: "यशवंतराव चव्हाण नाट्यगृह",
-      type: "Cultural Center",
-      significance: "Premier theater for Marathi plays and cultural events",
-      image: "/images/places/natyagruha.jpg",
-      rating: 4.3,
-      timings: "Show timings vary"
-    },
-    {
       name: "Kaas Plateau",
       marathi: "कास पठार",
       type: "Natural Wonder",
